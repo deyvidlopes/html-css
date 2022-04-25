@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet icon" href="icone.png" type="image/x-icon">
+    <!--Colocando o favicon (logotipo do site)-->
+    <title>Meu site</title>
+    <link rel="stylesheet" href="Meu Estilo.css"><!--Link externo do CSS3-->
+</head>
+<body>
+    <h1>Meu site completo</h1>
+    <hr> <!--linha abaixo-->
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, minus aliquid aspernatur at assumenda nisi?<br> Accusamus repellendus voluptatum dolore laborum atque illum, a deleniti nobis totam voluptas, quibusdam eius doloribus!</p>
+        <p><strong>Digitando em negrito</strong></p>
+    <p>Vamos adicionar uma imagem da galeria</p>
+    <p><strong>Editar foto no GIMP "redimencionar imagem"</strong></p>
+    <img src="imagens/foto para o site.jpg" alt="foto do Theodor">
+    <p>Vamos adicionar alguns simbolos especiais: &reg; &copy; &trade; &euro; &pound;
+    &yen; &cent; &Delta; &uarr;</p>
+    <p>Agora alguns emogi: &#x1F61D &#x1F60D &#x1F62D &#x1F60B &#x1F44D &#128512; &#x1F448; &#128516; &#128151;</p>
+    <h1>Adicionando imagem externa</h1>
+    <img src="https://www.petlove.com.br/dicas/wp-content/uploads/2021/07/Shihtzu-filhote-7.jpg" alt="Shihtzu"> <!--copiar a url da página-->
+    <h1>Usando h1, h2, h3, e h4.</h1> 
+    <h2>A Bíblia</h2>
+    <h3>Livros da Bíblia</h3>
+    <p>Gênesis, Êxodo, Deutoronônmio, Números e etc...</p>
+    <h3>Gênesis, Êxodo, Deutoronônmio, Números e etc...</h3>
+    <h4>Um pouco de Gênesis</h4>
+    <p>No princípio criou Deus o céu e a terra, e a terra era sem forma e vazia.</p>
+    <h4>Um pouco de Êxodo</h4>
+    <p>Não sei quase nada de bíblia, isso é uma vergonha para mim, meu Deus me perdoe e tenha misericórdia da minha vida.</p>
+    <br><!--Quebra de Linha-->
+    <h1>Exempleo de semântica</h1>
+    <p>Eu moro na <address>Rua Nova Iguaçú Nº 06 Trindade - São Gonçalo</address></p>
+    <p>Nesta frase temos um <i>"termo em itálico"</i> usando a tag I (não semântica)</p>
+    <p>Nesta frase, temos um <em>"termo em ênfase"</em> usando a tag EM (semântica)</p>
+    <h2>Texto marcado</h2>
+    <p>Podemos também criar <mark>um texto marcado</mark> usando a tag MARK</p>
+    <p>E no outro parágrafo temos <mark style="background-color: rgb(187, 104, 104);">outro texto marcado</mark> no final.</p>
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>"texto grande"</big> e um <small>"texto pequeno"</small> neste parágrafo</p>
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar <del>um texto como excluído</del> para indicar que ele deve ser lido, mais não considerado, usando a tag DEL.</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar um <ins>texo como inserido</ins> para dar ênfase e indicar que ele foi adicionado depois, usando a tag INS.</p>
+    <p>Existe também o <u>sublinhado</u> usando a tag U (não semântica)</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O.</p>
+    <h1>Outras formatações</h1>
+    <h2>Código fonte / Pré-formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code>é escrito em linguagem JavaScript</p>
+    
+    <pre><!--Mostrar exatamente como escrito-->
+    <code>
+        num = int(input('Digite um número'))
+        if num % 2 == 0:
+            print(f' O número {num} é PAR')
+        else:
+            print(f' O número {num} é IMPAR')
+        print('Fim do programa')
+    </code><!--Cada letra ou número com o mesmo tamanho de espaço-->
+    </pre>
+    <h2>Citações Simples</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+    <h2>Citações Completas</h2>
+    <p>Segundo Augusto Nicodemus, no seu livro: A Conquista da Terra Prometida</p>
+    <blockquote cite="https://www.google.com.br/books/edition/A_conquista_da_terra_prometida/cxZBDwAAQBAJ?hl=pt-BR&gbpv=1&dq=livro+josue&printsec=frontcover">Este livro é o resultado de uma série de mensagens que preguei no livro de Josué. <br> Ela foi pregada inicialmente na Primeira Igreja Presbiteriana do Recife, quando era pastaor ali.</blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="I"><!--1 A a I i-->
+        <li>Acordar</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar café</li>
+        <li>Ir para a faculdade</li>
+        <li>Almoçar</li>
+        <li>Ir para o trabalho</li>
+        <li>Lanchar</li>
+        <li>Voltar para casa</li>
+        <li>jantar</li>
+        <li>dormir</li>
+    </ol>
+    <h2>Listas não Ordenadas</h2>
+    <ul type="disc">
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+        <li>Feijão</li>
+        <li>Arroz</li>
+        <li>Macarrão</li>
+        <li>Açucar</li>
+        <li>Farinha</li>
+        <li>Limão</li>
+    </ul>
+    <h2>Minhas Linguagens Favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li><br>
+        </ol>
+        <li>Novas</li>
+        <ol type="a">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotrin</li>
+        </ol>
+    </ol>
+    <h2>Meus Jogos Favoritos</h2>
+    <ol>
+        <li>Mega Drive</li>
+        <ul type="square">
+            <li>Sonic</li>
+            <li>Golden Axe</li><br>
+        </ul>
+        <li>Super Nintendo</li>
+        <ul type="square">
+            <li>Super Mário</li>
+            <li>Bomberman</li><br>
+        </ul>
+        <li>PlayStation</li>
+        <ul type="square">
+            <li>PES</li>
+            <li>The King of Fighter</li>
+        </ul>
+    </ol>
+    <h1>Lista de Definições</h1>
+    <dl> <!--(dl)Lista de definição-->
+        <dt>HTML</dt> <!--(dt)termo-->
+        <dd>Linguagem de marcação para a criação do conteúdo de um site</dd><!--(dd)definião--> 
+        <br>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site</dd><br>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+    </dl>
+    <h1>Trabalhando com Links</h1>
+    <h2>Usando links externos</h2>
+    <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositório público no GitHub</a></p>
+    <p>Você também pode acessar o meu <a href="https://www.youtube.com/channel/UC6c6aw4xY54qlGcQDqLtd6g" target="_blank" rel="external">canal gratuito no YouTube.</a>
+    </p>
+    <h2>Usando links internos</h2>
+    <p>Essa é a primeira página do site. Se você quiser, pode também acessar a minha<a href="pagina002.html"> segunda página.</a></p>
+    <p>Você também pode acessar a nossa <a href="noticias/pagina003.html">página de notícias</a></p>
+    <h2>Links para download</h2>
+    <ul>
+        <li><a href="livros/meulivro.pdf.pdf" type="application/pdf">Baixar o livro em PDF</a></li>
+        <li><a href="livros/meulivro.zip.zip">Baixar o livro compactado em ZIP</a></li>
+    </ul><br>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/santana300.jpg" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/santana700.jpg" type="image/png">
+        <img src="imagens/santana1000.JPG" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio src="midea/Quando o verão chegar.mp3" controls autoplay></audio><!--Cuidado com direitos autorais-->
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+
+    <video width="300" controls>
+        <source src="midea/video-meusite.mp4.mp4" type="video/mp4">
+        <source src="midea/video-meusite.m4v.m4v" type="video/m4v">
+        <source src="midea/video-meusite.ogv.ogv" type="vídeo/ogg">
+        <source src="midea/video-meusite.webm.webm" type="vídeo/webm">
+        <p>Este vídeo não é compatível com seu navegador</p>
+    </video><br>
+    <h2>Mais um vídeo agora no modo paisagem</h2>
+    <video width="400" controls src="midea/video2.mp4.mp4"></video>
+
+    <!--Colocando degradê: style="background-image: linear-gradient"-->
+    <h1 style="background-image: linear-gradient(blue, rgb(24, 102, 175), rgb(91, 192, 167));">Inserindo vídeos do YouTube</h1>
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/ghBZda38OVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1 style="color: white; background-color: blue; text-align: center;">CORES EM CSS</h1><hr>
+    <!--Representação por Nomes-->
+    <h2 style="background-color: blue; color: white;">Exemplo de Cores</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sit minus rem, similique minima laboriosam at provident architecto ratione molestias assumenda, quidem obcaecati. Deleniti, aspernatur? Facere esse at autem veniam?</p>
+
+    <!--Representação por códigos decimais-->
+    <!--Decimal: 0 1 2 3 4 5 6 7 8 9-->
+    <!--Hexadecimal: 0 1 2 3 4 5 6 7 8 9 a b c d e f--> 
+    <h2 style="background-color: #0000ff; color: #ffffff;">Exemplo de Cores</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga illo a totam perspiciatis at nobis optio ab placeat, maiores accusamus magnam, minima quaerat nihil id consequatur corporis. Iure, iste tempore!</p>
+    
+    <!--Representação em RGB (Red, Green, Blue)-->
+    <h2 style="background-color: rgb(0, 0, 255); color: rgb(255, 255, 255);">Exemplo de Cores</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, laudantium doloribus tempore illo aliquam animi. Voluptatem exercitationem voluptas beatae. Accusamus veritatis nihil unde placeat dolore error ipsam blanditiis sapiente ea.</p>
+
+    <!--Representação por HSL (Hue, Sturation, Luminosity)-->
+    <h2 style="background-color: hsl(240, 100%, 50%); color: hsl(0, 0%, 100%);">Exemplo de Cores</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad doloremque repudiandae dolorem eaque esse, labore quaerat doloribus velit autem consectetur veniam tenetur, est tempora earum voluptatum. Sunt ab provident nihil!</p>
+    <h2 style="background-color: #226d2860; color: #116129;">Exemplo de Cores</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus et, ratione iste maiores magnam cum ipsam, reiciendis rerum nesciunt incidunt quae perspiciatis adipisci obcaecati sit sed, quo neque sequi vero!</p>
+    <main>
+        <h1 style="background-image: linear-gradient(to right,#627060, #D1F0CE); color: #000;">Exemplo de CSS</h1>
+        <h2 style="color: rgb(56, 55, 55);">Título 1</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam nostrum soluta nulla voluptates ducimus, neque beatae tempore error! Beatae praesentium nostrum fugit inventore laudantium, quod a libero debitis ab reprehenderit?</p>
+        <h2 style="color: rgb(56, 55, 55);">Título 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illo eveniet iusto eum! Labore nam fugit asperiores rem nemo qui ducimus incidunt architecto harum! Molestias voluptate consectetur ducimus iure commodi.</p>
+    </main>
+
+        <h1>Aprendendo Seletores</h1>
+        <h1 id="principal">Seletor principal</h1>
+        <h2 class="basico">Seletor básico</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, reprehenderit est! Natus, cum, alias quam doloribus iusto, expedita consequatur dolor fugit odio quas magni voluptates perspiciatis. Vero incidunt totam quisquam.</p>
+        <h2 class="intermediario">Seletor intermediário</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor labore cupiditate mollitia voluptate pariatur maxime! Rem sunt deserunt ab. Et modi unde minima placeat repellat, eligendi vero exercitationem dolorum delectus.</p>
+        <h2 class="avancado">Seletor Avançado</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati minus vitae et corrupti laborum, laboriosam animi ipsa eum eius dignissimos praesentium fugiat ducimus magni. Modi dolorem perspiciatis quod nihil quaerat.</p>
+        <h2 class="avancado">Outro seletor Avançado</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi aliquid alias quas repudiandae qui ullam mollitia, voluptatibus numquam similique maiores nemo debitis, impedit, sapiente eius veritatis. Natus, repellendus. Quia, quaerat!</p>
+
+    <h1>Trabalhando com Pseudoclasse</h1>
+    <style>
+        div {
+            display: inline-block;
+            background-color: rgb(182, 182, 138);
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+        /*hover = frutuar (passando o mause por cima)*/
+        div:hover{ 
+            background-color: yellow;
+        }
+    </style>
+            <div id="d1">01</div>
+            <div id="d2">02</div>
+            <div id="d3">03</div>
+    
+
+    <h1>Exemplo de Hover</h1>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div > p {
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: red;
+            width: 300px;
+        }
+        div:hover {
+            color: red;
+        }
+        
+    </style>    
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+        Passe o mouse aqui
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+    <p>Fim do Exemplo</p>
+
+    
+            
+
+
+</body>
+</html>

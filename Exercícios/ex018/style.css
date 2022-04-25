@@ -1,0 +1,14 @@
+@charset "UTF-08";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+body{
+    font-family: 'Special Elite', cursive;
+    font-size: 1.5em;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: rgb(39, 167, 167);
+}
