@@ -18,19 +18,22 @@
             border: 1px solid black;
             padding: 5px;
         }
+        tr.destaque {
+            background-color: darkgray;
+        }
     </style>
 </head>
 <body>
     <h1>Desafio 14.2</h1>
     <table>
         <thead>
-            <tr>
+            <tr class="destaque">
                 <th rowspan="2" scope="col">Área</th>
                 <th rowspan="2" scope="col">Diciplinas</th>
                 <th colspan="2" scope="colgroup">Notas</th>
                 <th rowspan="2" scope="col">Média</th>
             </tr>
-            <tr>
+            <tr class="destaque">
                 <th scope="col">Nota 1</th>
                 <th scope="col">Nota 2</th>
             </tr>
@@ -61,7 +64,7 @@
                 <td>8.0</td>
                 <td>6.5</td>
             </tr>
-            <tr>
+            <tr class="destaque">
                 <th colspan="4" scope="row">Média de Exatas</th>
                 <td>6.5</td>
             </tr>
@@ -78,7 +81,7 @@
                 <td>7.5</td>
                 <td>6.0</td>
             </tr>
-            <tr>
+            <tr class="destaque">
                 <th colspan="4" scope="row">Média de Humanas</th>
                 <td>7.5</td>
             </tr>
